@@ -3,13 +3,12 @@
 }
 
 body {
+  background-color: seagreen;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   margin: 0;
-  overflow: hidden;
 }
 
 h1 {
@@ -17,7 +16,6 @@ h1 {
 }
 
 .box {
-  background-color: steelblue;
   color: white;
   display: flex;
   align-items: center;
@@ -32,7 +30,7 @@ h1 {
 }
 
 .box:nth-of-type(even) {
-  transform: translateX(-200%);
+  transform: translateX(-400%);
 }
 
 .box.show {
