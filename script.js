@@ -11,7 +11,7 @@ function checkBoxes() {
     const boxTop = box.getBoundingClientRect().top;
 
     if (boxTop < triggerBottom) {
-      box.classList.and("show");
+      box.classList.add("show");
     } else {
       box.classList.remove("show");
     }
